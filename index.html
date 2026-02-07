@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carmalah Roastery — Coffee Theme</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <p>شحن مجاني لكل طلبات القهوة المختصة فوق 199 ريال</p>
+        <form class="topbar__search" role="search">
+          <input type="search" placeholder="ابحث عن البن، الأدوات، أو التحميصات" aria-label="بحث" />
+          <button type="submit">بحث</button>
+        </form>
+      </div>
+    </header>
+
+    <nav class="nav container">
+      <a class="brand" href="#">Carmalah Roastery</a>
+      <ul class="nav__links">
+        <li><a href="#products">البن</a></li>
+        <li><a href="#story">المحمصة</a></li>
+        <li><a href="#stores">الفروع</a></li>
+        <li><a href="#journal">الدليل</a></li>
+      </ul>
+      <button class="nav__action">اطلب قهوتك</button>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="hero__overlay"></div>
+        <div class="container hero__content">
+          <p class="eyebrow">قهوة مختصة بطابع هادئ</p>
+          <h1>ثيم احترافي للمحمصة يعرض البن والتحميصات بأسلوب فاخر وبسيط</h1>
+          <p>
+            مناسب لعلامات القهوة مثل Carmalah: تصميم مرتب، ألوان دافئة، ومساحات
+            مريحة تبرز جودة البن وتفاصيل النكهات.
+          </p>
+          <div class="hero__actions">
+            <button>تسوق البن الآن</button>
+            <a href="#products">استعرض التحميصات</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="section container">
+        <div class="section__head">
+          <h2>تجربة اختيار القهوة</h2>
+          <a href="#">تصفح كل الأصناف</a>
+        </div>
+
+        <div class="products-stack">
+          <article class="products-showcase">
+            <div class="products-showcase__image">
+              <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=80" alt="صورة حبوب قهوة مختصة" loading="lazy" />
+            </div>
+            <div class="products-showcase__info">
+              <div class="products-list">
+                <article class="product-card">
+                  <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=80" alt="جيشا ميكرو لوت" loading="lazy" />
+                  <h4>جيشا ميكرو لوت</h4>
+                  <span>129 ر.س</span>
+                  <div class="product-card__actions">
+                    <button class="btn btn--cart" type="button"><span aria-hidden="true">+</span> أضف للسلة</button>
+                    <button class="btn btn--apple" type="button"><span aria-hidden="true"></span> شراء سريع</button>
+                  </div>
+                </article>
+                <article class="product-card">
+                  <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=700&q=80" alt="بنما كلاسيك فاخر" loading="lazy" />
+                  <h4>بنما كلاسيك فاخر</h4>
+                  <span>115 ر.س</span>
+                  <div class="product-card__actions">
+                    <button class="btn btn--cart" type="button"><span aria-hidden="true">+</span> أضف للسلة</button>
+                    <button class="btn btn--apple" type="button"><span aria-hidden="true"></span> شراء سريع</button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </article>
+
+          <article class="products-showcase">
+            <div class="products-showcase__image">
+              <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1400&q=80" alt="صورة تحضير قهوة" loading="lazy" />
+            </div>
+            <div class="products-showcase__info">
+              <div class="products-list">
+                <article class="product-card">
+                  <img src="https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?auto=format&fit=crop&w=700&q=80" alt="بلند كارملا اليومي" loading="lazy" />
+                  <h4>بلند كارملا اليومي</h4>
+                  <span>79 ر.س</span>
+                  <div class="product-card__actions">
+                    <button class="btn btn--cart" type="button"><span aria-hidden="true">+</span> أضف للسلة</button>
+                    <button class="btn btn--apple" type="button"><span aria-hidden="true"></span> شراء سريع</button>
+                  </div>
+                </article>
+                <article class="product-card">
+                  <img src="https://images.unsplash.com/photo-1494314671902-399b18174975?auto=format&fit=crop&w=700&q=80" alt="كولومبيا سوبريمو" loading="lazy" />
+                  <h4>كولومبيا سوبريمو</h4>
+                  <span>82 ر.س</span>
+                  <div class="product-card__actions">
+                    <button class="btn btn--cart" type="button"><span aria-hidden="true">+</span> أضف للسلة</button>
+                    <button class="btn btn--apple" type="button"><span aria-hidden="true"></span> شراء سريع</button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </article>
+
+          <article class="products-showcase">
+            <div class="products-showcase__image">
+              <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1400&q=80" alt="صورة معدات القهوة" loading="lazy" />
+            </div>
+            <div class="products-showcase__info">
+              <div class="products-list">
+                <article class="product-card">
+                  <img src="https://images.unsplash.com/photo-1459755486867-b55449bb39ff?auto=format&fit=crop&w=700&q=80" alt="أظرف مقطرة جاهزة" loading="lazy" />
+                  <h4>أظرف مقطرة جاهزة</h4>
+                  <span>54 ر.س</span>
+                  <div class="product-card__actions">
+                    <button class="btn btn--cart" type="button"><span aria-hidden="true">+</span> أضف للسلة</button>
+                    <button class="btn btn--apple" type="button"><span aria-hidden="true"></span> شراء سريع</button>
+                  </div>
+                </article>
+                <article class="product-card">
+                  <img src="https://images.unsplash.com/photo-1497636577773-f1231844b336?auto=format&fit=crop&w=700&q=80" alt="أظرف إسبريسو سريعة" loading="lazy" />
+                  <h4>أظرف إسبريسو سريعة</h4>
+                  <span>49 ر.س</span>
+                  <div class="product-card__actions">
+                    <button class="btn btn--cart" type="button"><span aria-hidden="true">+</span> أضف للسلة</button>
+                    <button class="btn btn--apple" type="button"><span aria-hidden="true"></span> شراء سريع</button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </article>
+
+          <article class="products-showcase">
+            <div class="products-showcase__image">
+              <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1400&q=80" alt="صورة أكياس قهوة" loading="lazy" />
+            </div>
+            <div class="products-showcase__info">
+              <div class="products-list">
+                <article class="product-card">
+                  <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=700&q=80" alt="صندوق 12 جرعة 18 جرام" loading="lazy" />
+                  <h4>صندوق 12 جرعة — 18 جرام</h4>
+                  <span>89 ر.س</span>
+                  <div class="product-card__actions">
+                    <button class="btn btn--cart" type="button"><span aria-hidden="true">+</span> أضف للسلة</button>
+                    <button class="btn btn--apple" type="button"><span aria-hidden="true"></span> شراء سريع</button>
+                  </div>
+                </article>
+                <article class="product-card">
+                  <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=700&q=80" alt="باك تجريبي 6 جرعات" loading="lazy" />
+                  <h4>باك تجريبي 6 جرعات</h4>
+                  <span>47 ر.س</span>
+                  <div class="product-card__actions">
+                    <button class="btn btn--cart" type="button"><span aria-hidden="true">+</span> أضف للسلة</button>
+                    <button class="btn btn--apple" type="button"><span aria-hidden="true"></span> شراء سريع</button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="story" class="section section--warm">
+        <div class="container story">
+          <div>
+            <p class="eyebrow">قصة المحمصة</p>
+            <h2>نختار الحبوب بعناية ونحمّصها يوميًا لنقدم فنجانًا يستحق التكرار</h2>
+            <p>
+              صُمم هذا الثيم ليخدم متاجر القهوة المختصة: إبراز مصدر البن، مستوى
+              التحميص، وملاحظات التذوق بطريقة بسيطة وسهلة للعميل.
+            </p>
+          </div>
+          <div class="story__image"></div>
+        </div>
+      </section>
+
+      <section id="stores" class="section container split">
+        <div class="split__panel">
+          <h2>زوروا فرعنا في الرياض</h2>
+          <p>
+            جلسة قهوة مختصة مع أدوات ترشيح ومنيو موسمي. يمكنك عرض أوقات العمل
+            والموقع مباشرة داخل هذا القسم.
+          </p>
+          <button>اعرض الموقع على الخريطة</button>
+        </div>
+        <div class="split__panel split__panel--dark">
+          <h2>اشترك في نشرة القهوة</h2>
+          <p>استقبل جديد التحميصات، العروض، ودليل التحضير الأسبوعي.</p>
+          <form class="newsletter">
+            <input type="email" placeholder="name@email.com" />
+            <button type="submit">اشترك الآن</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© Carmalah Roastery Theme 2026</p>
+        <ul>
+          <li><a href="#">سياسة الخصوصية</a></li>
+          <li><a href="#">الشروط</a></li>
+          <li><a href="#">خدمة العملاء</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
